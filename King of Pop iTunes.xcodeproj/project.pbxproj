@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FBA6A081ECB8EF600FB28CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBA6A071ECB8EF600FB28CD /* AppDelegate.swift */; };
+		1FBA6A0F1ECB8EF600FB28CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FBA6A0E1ECB8EF600FB28CD /* Assets.xcassets */; };
+		1FBA6A121ECB8EF600FB28CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FBA6A101ECB8EF600FB28CD /* LaunchScreen.storyboard */; };
+		1FBA6A9F1ECB8F6E00FB28CD /* SongsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBA6A961ECB8F6E00FB28CD /* SongsTableViewController.swift */; };
+		1FBA6AA01ECB8F6E00FB28CD /* SongDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBA6A971ECB8F6E00FB28CD /* SongDetailsViewController.swift */; };
+		1FBA6AA11ECB8F6E00FB28CD /* SongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBA6A991ECB8F6E00FB28CD /* SongTableViewCell.swift */; };
+		1FBA6AA21ECB8F6E00FB28CD /* SongModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBA6A9B1ECB8F6E00FB28CD /* SongModel.swift */; };
+		1FBA6AA31ECB8F6E00FB28CD /* FetchDataDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBA6A9D1ECB8F6E00FB28CD /* FetchDataDelegate.swift */; };
+		1FBA6AA51ECB8FCA00FB28CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FBA6AA41ECB8FCA00FB28CD /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1FBA6A041ECB8EF600FB28CD /* King of Pop iTunes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "King of Pop iTunes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FBA6A071ECB8EF600FB28CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1FBA6A0E1ECB8EF600FB28CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FBA6A111ECB8EF600FB28CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1FBA6A131ECB8EF600FB28CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FBA6A961ECB8F6E00FB28CD /* SongsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongsTableViewController.swift; sourceTree = "<group>"; };
+		1FBA6A971ECB8F6E00FB28CD /* SongDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongDetailsViewController.swift; sourceTree = "<group>"; };
+		1FBA6A991ECB8F6E00FB28CD /* SongTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongTableViewCell.swift; sourceTree = "<group>"; };
+		1FBA6A9B1ECB8F6E00FB28CD /* SongModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongModel.swift; sourceTree = "<group>"; };
+		1FBA6A9D1ECB8F6E00FB28CD /* FetchDataDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchDataDelegate.swift; sourceTree = "<group>"; };
+		1FBA6AA41ECB8FCA00FB28CD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FBA6A011ECB8EF600FB28CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FBA69FB1ECB8EF600FB28CD = {
+			isa = PBXGroup;
+			children = (
+				1FBA6A981ECB8F6E00FB28CD /* View Controllers */,
+				1FBA6A9A1ECB8F6E00FB28CD /* Cells */,
+				1FBA6A9C1ECB8F6E00FB28CD /* Models */,
+				1FBA6A9E1ECB8F6E00FB28CD /* Delegates */,
+				1FBA6A061ECB8EF600FB28CD /* King of Pop iTunes */,
+				1FBA6A051ECB8EF600FB28CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FBA6A051ECB8EF600FB28CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FBA6A041ECB8EF600FB28CD /* King of Pop iTunes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FBA6A061ECB8EF600FB28CD /* King of Pop iTunes */ = {
+			isa = PBXGroup;
+			children = (
+				1FBA6A0E1ECB8EF600FB28CD /* Assets.xcassets */,
+				1FBA6A071ECB8EF600FB28CD /* AppDelegate.swift */,
+				1FBA6AA41ECB8FCA00FB28CD /* Main.storyboard */,
+				1FBA6A101ECB8EF600FB28CD /* LaunchScreen.storyboard */,
+				1FBA6A131ECB8EF600FB28CD /* Info.plist */,
+			);
+			path = "King of Pop iTunes";
+			sourceTree = "<group>";
+		};
+		1FBA6A981ECB8F6E00FB28CD /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1FBA6A961ECB8F6E00FB28CD /* SongsTableViewController.swift */,
+				1FBA6A971ECB8F6E00FB28CD /* SongDetailsViewController.swift */,
+			);
+			name = "View Controllers";
+			path = "../Chandan Brown - Chandan Brown iOS Top 25 Movies 2/Chandan Brown iOS Top 25 Movies.zip/iOS Top 25 Movies Sample";
+			sourceTree = "<group>";
+		};
+		1FBA6A9A1ECB8F6E00FB28CD /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1FBA6A991ECB8F6E00FB28CD /* SongTableViewCell.swift */,
+			);
+			name = Cells;
+			path = "../Chandan Brown - Chandan Brown iOS Top 25 Movies 2/Chandan Brown iOS Top 25 Movies.zip/iOS Top 25 Movies Sample";
+			sourceTree = "<group>";
+		};
+		1FBA6A9C1ECB8F6E00FB28CD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1FBA6A9B1ECB8F6E00FB28CD /* SongModel.swift */,
+			);
+			name = Models;
+			path = "../Chandan Brown - Chandan Brown iOS Top 25 Movies 2/Chandan Brown iOS Top 25 Movies.zip/iOS Top 25 Movies Sample";
+			sourceTree = "<group>";
+		};
+		1FBA6A9E1ECB8F6E00FB28CD /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				1FBA6A9D1ECB8F6E00FB28CD /* FetchDataDelegate.swift */,
+			);
+			name = Delegates;
+			path = "../Chandan Brown - Chandan Brown iOS Top 25 Movies 2/Chandan Brown iOS Top 25 Movies.zip/iOS Top 25 Movies Sample";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FBA6A031ECB8EF600FB28CD /* King of Pop iTunes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FBA6A161ECB8EF600FB28CD /* Build configuration list for PBXNativeTarget "King of Pop iTunes" */;
+			buildPhases = (
+				1FBA6A001ECB8EF600FB28CD /* Sources */,
+				1FBA6A011ECB8EF600FB28CD /* Frameworks */,
+				1FBA6A021ECB8EF600FB28CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "King of Pop iTunes";
+			productName = "King of Pop iTunes";
+			productReference = 1FBA6A041ECB8EF600FB28CD /* King of Pop iTunes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FBA69FC1ECB8EF600FB28CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Chandan B";
+				TargetAttributes = {
+					1FBA6A031ECB8EF600FB28CD = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 485WZNYRT6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1FBA69FF1ECB8EF600FB28CD /* Build configuration list for PBXProject "King of Pop iTunes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FBA69FB1ECB8EF600FB28CD;
+			productRefGroup = 1FBA6A051ECB8EF600FB28CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FBA6A031ECB8EF600FB28CD /* King of Pop iTunes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FBA6A021ECB8EF600FB28CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FBA6AA51ECB8FCA00FB28CD /* Main.storyboard in Resources */,
+				1FBA6A121ECB8EF600FB28CD /* LaunchScreen.storyboard in Resources */,
+				1FBA6A0F1ECB8EF600FB28CD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FBA6A001ECB8EF600FB28CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FBA6AA21ECB8F6E00FB28CD /* SongModel.swift in Sources */,
+				1FBA6A081ECB8EF600FB28CD /* AppDelegate.swift in Sources */,
+				1FBA6AA11ECB8F6E00FB28CD /* SongTableViewCell.swift in Sources */,
+				1FBA6AA01ECB8F6E00FB28CD /* SongDetailsViewController.swift in Sources */,
+				1FBA6AA31ECB8F6E00FB28CD /* FetchDataDelegate.swift in Sources */,
+				1FBA6A9F1ECB8F6E00FB28CD /* SongsTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1FBA6A101ECB8EF600FB28CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FBA6A111ECB8EF600FB28CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FBA6A141ECB8EF600FB28CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1FBA6A151ECB8EF600FB28CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FBA6A171ECB8EF600FB28CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 485WZNYRT6;
+				INFOPLIST_FILE = "King of Pop iTunes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TurnApp.King-of-Pop-iTunes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1FBA6A181ECB8EF600FB28CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 485WZNYRT6;
+				INFOPLIST_FILE = "King of Pop iTunes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TurnApp.King-of-Pop-iTunes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FBA69FF1ECB8EF600FB28CD /* Build configuration list for PBXProject "King of Pop iTunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FBA6A141ECB8EF600FB28CD /* Debug */,
+				1FBA6A151ECB8EF600FB28CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FBA6A161ECB8EF600FB28CD /* Build configuration list for PBXNativeTarget "King of Pop iTunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FBA6A171ECB8EF600FB28CD /* Debug */,
+				1FBA6A181ECB8EF600FB28CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FBA69FC1ECB8EF600FB28CD /* Project object */;
+}
